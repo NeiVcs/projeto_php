@@ -1,0 +1,25 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background: aqua;
+}
+.content{
+    display: flex;
+    justify-content: center;
+}
+.contato{
+    width: 400px;
+}
+.form{
+    display: flex;
+    flex-direction: column;
+}
+.field{
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid black;
+    border-radius: 5px;
+    font-size: 20px;
+}
+textarea{
+    height: 200px;
+}
